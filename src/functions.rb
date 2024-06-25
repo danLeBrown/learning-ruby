@@ -16,3 +16,15 @@ def greetDefaultUser(name= "bot")
 end
 
 greetDefaultUser
+
+
+def  cubeOf(num)
+  return num * num * num
+end
+
+# returns an array/tuple
+def squareAndCubeOf(num)
+  return (num*num), (num*num*num)
+end
+
+puts squareAndCubeOf(2)
